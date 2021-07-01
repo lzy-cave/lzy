@@ -179,6 +179,18 @@ timer;
 <h4><strong>如出现无法播放请联系作者</strong></i></h4>
 <ul>
 <p>
+.justify
+        {
+            text-align: justify;
+            width: 100px;
+        }
+        .justify > span
+        {
+            display: inline-block /* Opera */;
+            padding-left: 100%;
+        }
+
+<div class="justify">需要展示的文字
 视频地址：
 <input id="txtIn" type="text" color="#FCFCFC" placeholder="https://v.qq.com/x/cover/mzc00200y4wycre/v0039n6gmfs.html" style="font-family:华文新魏" size="23" title="在这里输入或粘贴在线视频地址，如下：
 
@@ -191,7 +203,7 @@ https://www.youku.com/category/show/c_97.html?spm=a2ha1.14919748_WEBTV_JINGXUAN.
 <option value="http://api.baiyug.cn/vip/index.php?url=">3</option>
 </select>
 <input type="button" onClick="javascript:doPlayVIP();txtIn.select();txtIn.focus();" value="播放" />
-</font></p>
+<span><span></div></font></p>
 <p class="STYLE7"> <i>怎么获取视频地址：打开浏览器，搜出你想看的视频，复制地址栏链接即得！</p>
 <p></p>
   <p class="STYLE7">  当出现无法播放的情况下请更换下一条线路</i></span><em></span></span></em><br/>
