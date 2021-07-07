@@ -1,7 +1,7 @@
 document.onkeydown = function(){
 
     if(window.event && window.event.keyCode == 123) {
-        alert("F12±»½ûÓÃ");
+        alert("ç§å¯†èŠ±å›­ï¼Œè¯·å‹¿å…¥å†…");
         event.keyCode=0;
         event.returnValue=false;
     }
@@ -9,7 +9,7 @@ document.onkeydown = function(){
         window.event.keyCode = 505;
     }
     if(window.event && window.event.keyCode == 8) {
-        alert(str+"\nÇëÊ¹ÓÃDel¼ü½øĞĞ×Ö·ûµÄÉ¾³ı²Ù×÷£¡");
+        alert(str+"\nè¯·ä½¿ç”¨Delé”®è¿›è¡Œå­—ç¬¦çš„åˆ é™¤æ“ä½œï¼");
         window.event.returnValue=false;
     }
 
