@@ -1,16 +1,8 @@
-document.onkeydown = function(){
-
-    if(window.event && window.event.keyCode == 123) {
-        alert("私密花园，请勿入内");
-        event.keyCode=0;
-        event.returnValue=false;
+document.onkeydown=function (e){
+        var currKey=0,evt=e||window.event;
+        currKey=evt.keyCode||evt.which||evt.charCode;
+        if (currKey == 123) {
+            window.event.cancelBubble = true;
+            window.event.returnValue = false;
+        }
     }
-    if(window.event && window.event.keyCode == 13) {
-        window.event.keyCode = 505;
-    }
-    if(window.event && window.event.keyCode == 8) {
-        alert(str+"\n请使用Del键进行字符的删除操作！");
-        window.event.returnValue=false;
-    }
-
-}
