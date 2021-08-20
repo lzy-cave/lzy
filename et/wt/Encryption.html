@@ -1,0 +1,23 @@
+<script type="text/javascript">   
+function password() {   
+var testV = 1;   
+var pass1 = prompt('请输入访问密码:','');   
+while (testV < 3) {   
+if (!pass1)    
+history.go(-1);   
+if (pass1 == "LOVE") {
+alert('密码输入正确，即将进行跳转.....');   
+window.location.href="../../七夕.html";
+break;   
+}    
+testV+=1;   
+var pass1 =    
+prompt('密码输入错误','');  
+window.location.href="https://longzhiyuan.tk/index.html";
+}   
+if (pass1!="password" & testV ==3)    
+history.go(-1);   
+return " ";   
+}    
+document.write(password());   
+</script>
