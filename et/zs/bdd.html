@@ -75,8 +75,20 @@
         }
 
     </style>  
-  <audio src="http://longzhiyuanvip.ml/music/bdd.mp3" id="audio" loop="true"></audio>
+  
  <body>
+	 <!--音乐弹窗-->
+	                <head>
+    <audio src="http://longzhiyuanvip.ml/music/bdd.mp3" id="audio" loop="true"></audio>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script> var jq351 = jQuery.noConflict(true); </script>
+    <script>
+(function($){
+    //此时的$是jQuery-3.5.1
+    $('#header');
+})(jq351);
+</script>
+</head>
   <div> 
    <div class="waifu" id="waifu"> 
     <div class="waifu-tips" style="opacity: 1;"></div> 
