@@ -3,7 +3,7 @@
         cursorSpeed: 1000,
         speed: 100
     })
-    .type("马晓轩 ❤️LOVE❤️ 曾梦婷")
+    .type("马晓轩❤️LOVE❤️曾梦婷")
     .pause(2000)
     .delete(null, {
         delay: 500
