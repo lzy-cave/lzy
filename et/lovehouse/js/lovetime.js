@@ -23,6 +23,6 @@
     var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours - diffMinutes *
         minutes) / seconds)
     document.getElementById("lovetime").innerHTML = "我的心已为你跳动 " + diffYears + "年" + diffDays + "天" +
-        diffHours + "小时" + diffMinutes + "分钟" + diffSeconds + "秒啦"
+        diffHours + "小时" + diffMinutes + "分钟" + diffSeconds + "秒"
 }
 lovetime()
